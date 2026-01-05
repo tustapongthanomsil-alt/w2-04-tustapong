@@ -26,7 +26,7 @@ class RectangleState extends State<Rectangle> {
 
   final InputDecoration _texFieldStyle = InputDecoration(
     filled: true,
-    fillColor: Colors.green[100],
+    fillColor: Colors.grey[500],
     border: OutlineInputBorder(),
   );
 

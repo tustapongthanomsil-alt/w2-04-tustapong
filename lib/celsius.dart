@@ -25,7 +25,7 @@ class CelsiusState extends State<Celsius> {
 
   final InputDecoration _texFieldStyle = InputDecoration(
     filled: true,
-    fillColor: Colors.blue[100],
+    fillColor: Colors.grey[500],
     border: OutlineInputBorder(),
   );
 

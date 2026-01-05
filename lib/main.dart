@@ -35,6 +35,7 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Icon(Icons.calculate,size: 200,),
             TextButton(
               onPressed: () => Navigator.pushNamed(context, '/rectangle'),
               child: Text('คำนวนพื่นที่สี่เหลี่ยม'),
@@ -43,7 +44,8 @@ class MyHomePage extends StatelessWidget {
                 foregroundColor: Colors.white,
               ),
             ),
-            SizedBox(height: 10,),
+
+            SizedBox(height: 10),
             TextButton(
               onPressed: () => Navigator.pushNamed(context, '/celsius'),
               child: Text('คำนวนเซลเซียสเป็นฟาเรนไฮต์'),
